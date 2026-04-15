@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+            background-color: rgb(255, 254, 189);
+        }
+
+        header {
+            background-color: rgb(255, 255, 139);
+            text-align: center;
+            padding:10px;
+        }
+        section{
+            background-color: rgb(255, 255, 0);
+        }
+        footer{
+            background-color: rgb(242, 255, 102);
+            text-align: center;
+            padding:10px;
+        }
+
+        article{
+            background-color: seashell;
+        }
+        article {}
+        a{ color: black;}
+
+        h1{
+            color:white
+        }
+
+        h2{
+            color: darkgoldenrod
+        }
+
+        h4{
+            color: white;
+        }
+
+        .foot-p{
+            color: purple;
+        }
+
+        header > 3p{
+            color: white;
+        }
