@@ -2,20 +2,46 @@ nav{
             background-color: rgb(255, 254, 189);
         }
 
-        header {
-            background-color: rgb(255, 255, 139);
+        nav ul{
+            list-style: none;
             text-align: center;
+            padding: 15px;
+        }
+
+        nav ul li{
+            display: inline;
+            margin: 15px;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+        
+        body{
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(193, 142, 207);
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 30px;
         }
         section{
-            background-color: rgb(255, 255, 0);
+            background-color: rgb(136, 25, 158);
+            padding: 20px;
         }
         footer{
-            background-color: rgb(242, 255, 102);
+            background-color: rgb(183, 97, 192);
             text-align: center;
         }
 
         article{
             background-color: seashell;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 30px;
+            box-shadow: 0px 1px 43px 13px #6F2C65
+;
         }
         article {}
         a{ color: black;}
